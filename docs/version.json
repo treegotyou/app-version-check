@@ -1,6 +1,18 @@
+// {
+//   "minVersion": {
+//     "ios": "1.0.0",
+//     "android": "1.0.0"
+//   }
+// }
+
+
 {
   "minVersion": {
     "ios": "1.0.1",
     "android": "1.0.1"
+  },
+  "softVersion": {
+    "ios": "1.0.3",
+    "android": "1.0.3"
   }
 }
