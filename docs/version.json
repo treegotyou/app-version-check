@@ -1,6 +1,6 @@
 {
   "minVersion": {
-    "android": "9.9.9", // ← force update for testing
+    "android": "9.9.9",
     "ios": "9.9.9"
   },
   "softVersion": {
