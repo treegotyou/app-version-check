@@ -1,14 +1,53 @@
-<html>
-	<body>
-		{
-		  "minVersion": {
-		    "ios": "1.0.1",
-		    "android": "1.0.1"
-		  },
-		  "softVersion": {
-		    "ios": "1.0.3",
-		    "android": "1.0.3"
-		  }
-		}
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📱 App Version Info</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans flex items-center justify-center min-h-screen p-4">
+  <div class="max-w-md w-full bg-gray-800 p-6 rounded-2xl shadow-2xl text-center">
+    <h1 class="text-2xl font-bold mb-4">🚀 App Version Dashboard</h1>
+    <p class="text-gray-400 mb-6">Here's the latest version status for your app:</p>
+
+    <div id="versionInfo" class="space-y-4">
+      <div class="animate-pulse text-gray-400">Fetching version info...</div>
+    </div>
+
+    <footer class="mt-6 text-xs text-gray-600">Updated in real-time ✨</footer>
+  </div>
+
+  <script>
+    async function loadVersionData() {
+      try {
+        const res = await fetch('./version.json');
+        if (!res.ok) throw new Error('Failed to load version.json');
+        const data = await res.json();
+
+        const info = `
+          <div class="bg-gray-700 p-4 rounded-lg">
+            <h2 class="text-lg font-semibold mb-2">📱 iOS</h2>
+            <p><strong>🔒 Min Version:</strong> ${data.minVersion.ios}</p>
+            <p><strong>💡 Recommended:</strong> ${data.softVersion.ios}</p>
+          </div>
+          <div class="bg-gray-700 p-4 rounded-lg">
+            <h2 class="text-lg font-semibold mb-2">🤖 Android</h2>
+            <p><strong>🔒 Min Version:</strong> ${data.minVersion.android}</p>
+            <p><strong>💡 Recommended:</strong> ${data.softVersion.android}</p>
+          </div>
+        `;
+
+        document.getElementById('versionInfo').innerHTML = info;
+      } catch (err) {
+        document.getElementById('versionInfo').innerHTML = `
+          <p class="text-red-500 font-semibold">⚠️ Failed to load version data.</p>
+        `;
+        console.error(err);
+      }
+    }
+
+    loadVersionData();
+  </script>
+</body>
 </html>
