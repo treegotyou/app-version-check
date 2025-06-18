@@ -1,0 +1,80 @@
+{
+  "enabled": {
+    "description": "Whether the banner is active and should be shown.",
+    "type": "boolean",
+    "example": true
+  },
+  "type": {
+    "description": "The type of media to display: either an image or a video.",
+    "type": "string",
+    "allowedValues": ["image", "video"],
+    "example": "image"
+  },
+  "mediaUrl": {
+    "description": "Direct link to the image or video file to be shown.",
+    "type": "string (URL)",
+    "example": "https://example.com/ad.jpg"
+  },
+  "title": {
+    "description": "The headline text displayed on the banner.",
+    "type": "string",
+    "example": "Exclusive Deal!"
+  },
+  "body": {
+    "description": "Main message or body content shown below the title.",
+    "type": "string",
+    "example": "Click to claim your reward."
+  },
+  "startAt": {
+    "description": "The UTC datetime when the banner should start appearing.",
+    "type": "string (ISO 8601 date-time)",
+    "example": "2025-06-18T22:00:00Z"
+  },
+  "endAt": {
+    "description": "The UTC datetime when the banner should stop appearing.",
+    "type": "string (ISO 8601 date-time)",
+    "example": "2025-06-25T23:59:59Z"
+  },
+  "dismissAfterSeconds": {
+    "description": "How many seconds the banner will be shown before auto-dismiss (optional).",
+    "type": "number (seconds)",
+    "optional": true,
+    "example": 10
+  },
+  "cancelable": {
+    "description": "Whether the user is allowed to manually close the banner.",
+    "type": "boolean",
+    "optional": true,
+    "example": true
+  },
+  "cancelableAfterSeconds": {
+    "description": "How many seconds to wait before the cancel button appears (only if cancelable is true).",
+    "type": "number (seconds)",
+    "optional": true,
+    "example": 5
+  },
+  "redirectUrl": {
+    "description": "If provided, tapping the banner or CTA button opens this URL.",
+    "type": "string (URL)",
+    "optional": true,
+    "example": "https://yourapp.com/deal"
+  },
+  "ctaButtonText": {
+    "description": "Text for a call-to-action button shown near the bottom of the banner.",
+    "type": "string",
+    "optional": true,
+    "example": "Claim Now"
+  },
+  "ctaDelaySeconds": {
+    "description": "How many seconds to wait before showing the CTA button (only if ctaButtonText is set).",
+    "type": "number (seconds)",
+    "optional": true,
+    "example": 3
+  },
+  "showOnAppStartOnlyOncePerDay": {
+    "description": "If true, the banner will only show once per day per device.",
+    "type": "boolean",
+    "optional": true,
+    "example": true
+  }
+}

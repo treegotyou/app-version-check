@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "type": "image",
+  "mediaUrl": "./images/testing.png",
+  "title": "Exclusive Deal!",
+  "body": "Click to claim your reward.",
+  "startAt": {
+  "date": "2025-06-19",
+    "time": "01:00"
+    },
+    "endAt": {
+    "date": "2025-06-20",
+    "time": "01:59"
+    },
+  "dismissAfterSeconds": 10,
+  "cancelable": true,
+  "cancelableAfterSeconds": 5,
+  "redirectUrl": "https://treegotyou.com",
+  "ctaButtonText": "Claim Now",
+  "ctaDelaySeconds": 3,
+  "showOnAppStartOnlyOncePerDay": true
+}
