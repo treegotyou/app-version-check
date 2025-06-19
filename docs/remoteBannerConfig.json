@@ -12,7 +12,7 @@
     "date": "2025-06-20",
     "time": "01:59"
   },
-  "dismissAfterSeconds": 40,
+  "dismissAfterSeconds": 180,
   "cancelable": true,
   "cancelableAfterSeconds": 5,
   "redirectUrl": "https://treegotyou.com",
