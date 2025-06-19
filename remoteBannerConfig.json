@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "type": "image",
-  "mediaUrl": "./images/testing.png",
+  "mediaUrl": "https://imgur.com/a/j71jkld",
   "title": "Exclusive Deal!",
   "body": "Click to claim your reward.",
   "startAt": {
