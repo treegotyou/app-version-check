@@ -5,13 +5,13 @@
   "title": "Exclusive Deal!",
   "body": "Click to claim your reward.",
   "startAt": {
-  "date": "2025-06-19",
-    "time": "01:20"
-    },
+    "date": "2025-06-19",
+    "time": "01:27"
+  },
     "endAt": {
     "date": "2025-06-20",
     "time": "01:59"
-    },
+  },
   "dismissAfterSeconds": 10,
   "cancelable": true,
   "cancelableAfterSeconds": 5,
