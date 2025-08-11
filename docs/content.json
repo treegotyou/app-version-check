@@ -8,14 +8,14 @@
       "subtitle": "Beautiful portfolio websites that impress clients",
       "images": [
         "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e",
-        "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e",
+        "https://dl.dropboxusercontent.com/scl/fi/7s49gjzub3a97ftwl7x5q/1.png?rlkey=8cgqmd6j4o3mu6ir5bohbpyji&st=09vckgdy",
         "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e"
       ],
       "ctaText": "Get Yours Today",
       "ctaUrl": "https://leadsmap.treegotyou.com/create-portfolio"
     },
     {
-      "goingToShow": true,
+      "goingToShow": false,
       "title": "Another Showcase",
       "subtitle": "Different content with different images",
       "images": [
