@@ -1,0 +1,37 @@
+{
+  "display": true,
+  "switchTime": 3,
+  "items": [
+    {
+      "goingToShow": true,
+      "title": "Showcase Your Work",
+      "subtitle": "Beautiful portfolio websites that impress clients",
+      "images": [
+        "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e",
+        "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e",
+        "https://dl.dropboxusercontent.com/scl/fi/0z22gcl1hmyytfjyjp5xv/c8e36869-b431-414c-912b-c926430b4817.png?rlkey=wqfxco4tk2ok1zcm3mxsy1893&st=5wzpxi6e"
+      ],
+      "ctaText": "Get Yours Today",
+      "ctaUrl": "https://leadsmap.treegotyou.com/create-portfolio"
+    },
+    {
+      "goingToShow": false,
+      "title": "Another Showcase",
+      "subtitle": "Different content with different images",
+      "images": [
+        "https://example.com/path/to/image4.jpg",
+        "https://example.com/path/to/image5.jpg"
+      ],
+      "ctaText": "Learn More",
+      "ctaUrl": "https://example.com/another-link"
+    },
+    {
+      "goingToShow": false,
+      "title": "Hidden Showcase",
+      "subtitle": "This won't show because goingToShow is false",
+      "images": [],
+      "ctaText": "Hidden",
+      "ctaUrl": ""
+    }
+  ]
+}
