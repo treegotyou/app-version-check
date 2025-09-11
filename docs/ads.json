@@ -1,3 +1,4 @@
 {
-  "intervalMinutes": 30
+  "intervalMinutes": 30,
+  "minAdIntervalMinutes": 15
 }
