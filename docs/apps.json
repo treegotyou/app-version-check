@@ -1,0 +1,69 @@
+{
+  "apps": [
+    {
+      "id": "app1",
+      "name": "PDF Master Pro",
+      "description": "All-in-one PDF editor with advanced features for creating, editing, and converting PDF documents.",
+      "icon": "file-pdf",
+      "websiteUrl": "https://yourwebsite.com/pdf-master",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp.pdfmaster",
+      "category": "Productivity",
+      "rating": 4.8,
+      "downloads": "100K+",
+      "featured": true,
+      "tags": ["PDF", "Editor", "Productivity", "Tools"]
+    },
+    {
+      "id": "app2", 
+      "name": "Photo Enhancer AI",
+      "description": "Transform your photos with AI-powered editing tools, filters, and enhancement features.",
+      "icon": "camera",
+      "websiteUrl": "https://yourwebsite.com/photo-enhancer",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp.photoenhancer",
+      "category": "Photo & Video",
+      "rating": 4.7,
+      "downloads": "50K+",
+      "featured": false,
+      "tags": ["Photo", "AI", "Editing", "Filters"]
+    },
+    {
+      "id": "app3",
+      "name": "Budget Tracker",
+      "description": "Simple and intuitive expense manager to track your spending and manage your budget effectively.",
+      "icon": "chart-line",
+      "websiteUrl": "https://yourwebsite.com/budget-tracker",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp.budgettracker",
+      "category": "Finance",
+      "rating": 4.6,
+      "downloads": "25K+",
+      "featured": false,
+      "tags": ["Finance", "Budget", "Expense", "Money"]
+    },
+    {
+      "id": "app4",
+      "name": "Language Learning",
+      "description": "Learn new languages with interactive lessons, speech recognition, and personalized learning paths.",
+      "icon": "language",
+      "websiteUrl": "https://yourwebsite.com/language-learning",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp.languagelearning",
+      "category": "Education",
+      "rating": 4.9,
+      "downloads": "75K+",
+      "featured": true,
+      "tags": ["Education", "Language", "Learning", "Interactive"]
+    },
+    {
+      "id": "app5",
+      "name": "Fitness Coach",
+      "description": "Personal workout plans, exercise tracking, and health monitoring for your fitness journey.",
+      "icon": "dumbbell",
+      "websiteUrl": "https://yourwebsite.com/fitness-coach",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourapp.fitnesscoach",
+      "category": "Health & Fitness",
+      "rating": 4.5,
+      "downloads": "30K+",
+      "featured": false,
+      "tags": ["Fitness", "Health", "Workout", "Exercise"]
+    }
+  ]
+}
